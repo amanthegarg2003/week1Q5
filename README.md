@@ -1,19 +1,18 @@
-Code Overview
+                                                                Code Overview
 This is a simple calculator program written in C. It provides a menu for users to select an arithmetic operation (addition, subtraction, multiplication, or division) and then performs the selected operation on two input numbers.
 
 Detailed Breakdown
 Include Directives
 
-c
-Copy code
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio.h>: Includes the Standard Input Output header for using functions like printf and scanf.
 #include <stdlib.h>: Includes the Standard Library header, though it's not used in this particular code.
 Main Function
 
-c
-Copy code
+
+
 int main()
 {
     int menu; // Variable for the number the user inputs
@@ -51,8 +50,7 @@ User Input:
 scanf("%d", &menu);: Reads the user's choice of operation from the input.
 Switch Statement
 
-c
-Copy code
+
 switch(menu)
 {
     case 1:
@@ -74,8 +72,7 @@ switch(menu)
 This switch statement directs the flow of the program based on the user's choice (menu). Each case corresponds to one of the arithmetic operations. The default case handles invalid input.
 Case 1: Addition
 
-c
-Copy code
+
 case 1:
     printf("You entered Addition\n\n");
 
@@ -97,8 +94,7 @@ Calculates the sum of num1 and num2.
 Outputs the result in a formatted manner.
 Case 2: Subtraction
 
-c
-Copy code
+
 case 2:
     printf("You entered Subtraction\n\n");
 
@@ -117,8 +113,7 @@ case 2:
 Similar to Case 1 but performs subtraction.
 Case 3: Multiplication
 
-c
-Copy code
+
 case 3:
     printf("You entered Multiplication\n\n");
 
@@ -137,8 +132,7 @@ case 3:
 Similar to Case 1 but performs multiplication.
 Case 4: Division
 
-c
-Copy code
+
 case 4:
     printf("You entered Division\n\n");
 
@@ -157,8 +151,7 @@ case 4:
 Similar to Case 1 but performs division. Note that this implementation does not handle the case where num2 is zero, which would cause a division by zero error.
 Default Case
 
-c
-Copy code
+                                        
 default:
     printf("Enter correct number e.g 1 - 4\n"); // Handle invalid input
     break;
