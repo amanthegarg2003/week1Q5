@@ -4,15 +4,9 @@ This is a simple calculator program written in C. It provides a menu for users t
 Detailed Breakdown
 Include Directives
 
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdio.h>: Includes the Standard Input Output header for using functions like printf and scanf.
+#include <stdio.h>  :  Includes the Standard Input Output header for using functions like printf and scanf.
 #include <stdlib.h>: Includes the Standard Library header, though it's not used in this particular code.
 Main Function
-
-
-
 int main()
 {
     int menu; // Variable for the number the user inputs
